@@ -1,6 +1,6 @@
 # Section 2: Control Flow
 
-This section teaches how programs build expressions, compare values, combine conditions, branch with `if`, and repeat work with loops. These ideas appear in almost every real program.
+This section teaches how programs build expressions, compare values, combine conditions, and branch with `if`. These ideas appear in almost every real program.
 
 ## Learning goals
 
@@ -12,8 +12,6 @@ By the end of this section, you will be able to:
 - Combine conditions with `and`, `or`, and `not`.
 - Write multi-branch decisions with `if`, `elif`, and `else`.
 - Nest conditions to express more complex rules (and know when to simplify).
-- Repeat code with `for` and `while`, and choose the right loop for the task.
-- Control loop execution with `break`, `continue`, and `pass`.
 
 ## Topic summary (order of lessons)
 
@@ -25,9 +23,6 @@ By the end of this section, you will be able to:
 | 4 | Logical operators | `04-logical-operators.md` |
 | 5 | `if`, `elif`, `else` | `05-if-elif-else.md` |
 | 6 | Nested conditions | `06-nested-conditions.md` |
-| 7 | `for` loops | `07-for-loops.md` |
-| 8 | `while` loops | `08-while-loops.md` |
-| 9 | `break`, `continue`, `pass` | `09-break-continue-pass.md` |
 
 Work through the lessons in order. Each lesson ends with a small practice task. After the section, complete the assignments in `homework.md`.
 

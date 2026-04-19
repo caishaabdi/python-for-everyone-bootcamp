@@ -1,10 +1,8 @@
 # Homework — Section 2: Control Flow
 
-Complete these tasks after you finish all lessons in this section (through `09-break-continue-pass.md`). They follow the same ideas as the **Mini practice** steps in each lesson—just a bit longer and using `input()` where it helps.
+Complete these tasks after you finish all lessons in this section (through `06-nested-conditions.md`). They follow the same ideas as the **Mini practice** steps in each lesson—just a bit longer and using `input()` where it helps.
 
 Submit according to your instructor’s format (files, screenshots, or a short write-up).
-
-Use **`range`** with **`for`** loops the way it is shown in `07-for-loops.md`.
 
 ---
 
@@ -33,20 +31,17 @@ This matches the nested-conditions lesson mini practice, using the same strings.
 
 ---
 
-## Assignment 3: Loops review
+## Assignment 3: Logical combinations (`and` / `or`)
 
-Write `loops_review.py` one file with **three** labeled parts (use comments like `# Part A`):
+Write `logic_permissions.py` that:
 
-**Part A — `for` over text**  
-Ask the user for a **short word** (or use a variable). Print **each character** on its own line, like the `for-loops` mini practice with your name.
+1. Asks the user for their **age** as an integer (`input()` and `int(...)`).
+2. Asks whether a **parent or guardian is with them**, using a single letter answer: the user types **`y`** or **`n`** (compare the string to `"y"`).
+3. Prints **`"OK to enter"`** if this rule is satisfied: **age is 13 or older**, **or** (**age is at least 10** **and** the parent answer is **`y`**). Otherwise prints **`"Sorry, not this time"`**.
 
-**Part B — `for` with `range`**  
-Use `for` and `range` to print the numbers **1** through **10**, each on its own line.
+Use **`and`** and **`or`** in your condition (add **parentheses** so the rule is easy to read).
 
-**Part C — `while` counter**  
-Set `count = 1`. Use a **`while`** loop to print `count` from **1** to **5** inclusive, then stop (same idea as the `while-loops` mini practice).
-
-**Deliverable:** `loops_review.py` + pasted output showing all three parts.
+**Deliverable:** `logic_permissions.py` + two example runs: one run that prints `"OK to enter"` and one that prints `"Sorry, not this time"`.
 
 ---
 
@@ -54,7 +49,6 @@ Set `count = 1`. Use a **`while`** loop to print `count` from **1** to **5** inc
 
 - [ ] Every `if` / `elif` / `else` lines up the way you intend (watch indentation).
 - [ ] You used `==` for comparisons, not `=` inside conditions.
-- [ ] Loops stop when they should (no accidental infinite `while`).
-- [ ] `range` start/stop matches what you want (remember: the **stop** value is not included).
+- [ ] When you mix `and` and `or`, parentheses make the rule match what you intend.
 
 After you finish this homework, you are ready to go to the **next** section of the bootcamp.

@@ -51,4 +51,4 @@ Try `has_ticket = False` and `age = 16` in separate runs to see the other messag
 
 1. Ask for a **username** with `input()`. If it is `"admin"`, ask for a **password**; if the password is `"secret"`, print `"Access granted"`, else print `"Wrong password"`. If the username is not `admin`, print `"Unknown user"` (do not ask for a password).
 
-Continue with `07-for-loops.md`.
+When you are ready, open `homework.md` in this folder and complete the section assignments.

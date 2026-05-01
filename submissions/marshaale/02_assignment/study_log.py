@@ -1,6 +1,7 @@
 def main():
     notes = load_notes("notes.txt")
     print(notes)
+    save_notes("notes.txt",[1,3,4])
 
 def load_notes(path):
     notes = []
@@ -14,7 +15,9 @@ def load_notes(path):
 
 
 def save_notes(path,notes):
-    pass
+    with open(path,'w',encoding='utf-8') as f:
+        for note in notes:
+            f.write(f"{note}\n")
 
 if __name__ == "__main__":
     main()
